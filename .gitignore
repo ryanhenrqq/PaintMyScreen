@@ -1,0 +1,24 @@
+# Executáveis compilados
+*.bin
+*.out
+*.exe
+paint
+
+# Arquivos objeto e dependências de compilação
+*.o
+*.obj
+*.d
+*.a
+*.so
+
+# Imagens geradas ao testar o app
+*.png
+!exemplo.png
+
+# Arquivos temporários e de editores (Vim, VS Code, etc.)
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+.DS_Store
